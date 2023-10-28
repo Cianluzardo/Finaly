@@ -10,7 +10,7 @@ while (edad < 18) {
     edad = parseInt(edad);
 
     if (edad < 18) {
-        alert("Lo siento, debes ser mayor de 18 años para navegar.");
+        alert("Oh no, debes ser mayor de 18 años para navegar.");
     }
 }
 alert("¡Bienvenido! Ahora puedes navegar en el sitio.");
