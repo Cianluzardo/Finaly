@@ -60,8 +60,10 @@ h6 {
 }
 
 body {
-    background-image: url(https://scontent.faep34-1.fna.fbcdn.net/v/t39.30808-6/300384712_513245957467997_2612880900177317638_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tMnQ7Af7iIEAX-Ke4CC&_nc_ht=scontent.faep34-1.fna&oh=00_AfCgFkMTqbtcNc7NpWbJ0BOOEGzACMtvEZXlpNRaO8ZUNQ&oe=6536E013);
+    background-image:url('https://scontent.faep34-1.fna.fbcdn.net/v/t39.30808-6/300384712_513245957467997_2612880900177317638_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tMnQ7Af7iIEAX-Ke4CC&_nc_ht=scontent.faep34-1.fna&oh=00_AfCgFkMTqbtcNc7NpWbJ0BOOEGzACMtvEZXlpNRaO8ZUNQ&oe=6536E013');
     text-align: center;
+    background-size: cover;
+    background-position: center;
 
 
 }
