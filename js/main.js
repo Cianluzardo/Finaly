@@ -14,4 +14,3 @@ while (edad < 18) {
     }
 }
 alert("¡Bienvenido! Ahora puedes navegar en el sitio.");
-
