@@ -1,16 +1,8 @@
-var edad = 0;
+let edad = parseInt(prompt("Por favor, introduce tu edad:"));
 
-while (edad < 18) {
-    edad = prompt("Por favor, introduce tu edad:");
-
-    if (edad === null || isNaN(edad) || edad === "") {
-        alert("Debes introducir una edad válida para continuar.");
-        continue;
-    }
-    edad = parseInt(edad);
-
-    if (edad < 18) {
+    if (edad <18) {
         alert("Oh no, debes ser mayor de 18 años para navegar.");
-    }
+    } else if (edad === null || isNaN (edad) || edad ===""){
+        alert ("Debes introducir tu edad válida para continuar.");
+    }else { alert ("¡Bienvenido! Ahora puedes navegar en el sitio.")
 }
-alert("¡Bienvenido! Ahora puedes navegar en el sitio.");
