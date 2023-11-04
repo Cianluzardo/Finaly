@@ -11,12 +11,15 @@ if (edad < 18) {
 }
 
 /* funciones-- evento--*/
-function mostrarFrase (){
-    var elemento = document.getElementById ("Cian Lú")
-    elemento.innerText= "Comprando hoy, desbloquea tu descuento";
+function mostrarFrase() {
+    var elemento = document.getElementById("Cian Lú")
+    elemento.innerText = "Comprando hoy, desbloquea tu descuento";
 
 }
 function reiniciarTexto() {
     var elemento = document.getElementById("Cian Lú");
     elemento.innerText = "Cian Lú";
-  }
+}
+
+
+/* pagina de contacto-- alerta de mensaje enviado--evento*/
