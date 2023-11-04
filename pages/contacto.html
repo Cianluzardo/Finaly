@@ -28,7 +28,9 @@
         </article>
     </section>
 
-
+    <div class="btn.contenedor">
+        <button class="btnAlert" id="btnAlert">Haz click aqui</button>
+    </div>
     <h3>Tu consulta es por ser:
     </h3>
     <select name="identificacion">
@@ -40,26 +42,27 @@
         <!-- comentario-->
         <form>
             <fieldset>
-
+                <!--formulario-->
                 <strong>
+                
                     <label for="nombre"> Nombre: </label>
-                    <input type="text" name="nombre" />
+                    <input type="text" minlength="5">
                     <br>
                     <label for="telefono">Telefono*:</label>
-                    <input type="text" name="telefono" id="telefono" required>
+                    <input type="number" minlength="8" maxlength="10">
                     <br>
                     <label for="email"> Correo:</label>
-                    <input type="email" name="email" id="email" />
+                    <input type="email" placeholder="introduce letras minusculas" />
                     <br>
                     <label for="mensaje:"> Mensaje:</label>
-                    <textarea type="area" name="mensaje" id=" area" cols="50" rows="4"></textarea>
+                    <textarea type="area" id=" area" cols="50" rows="4"></textarea>
                     <br>
                     <div>
                         Acepta términos y condiciones
                         <input type="checkbox">
                     </div>
                     <br>
-                    <input type="reset" value=" Enviar comentario" />
+                    <input type="submit" value=" Enviar comentario" />
                     <br>
 
                 </strong>
