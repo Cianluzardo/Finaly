@@ -22,4 +22,4 @@ function reiniciarTexto() {
 }
 
 
-/* pagina de contacto-- alerta de mensaje enviado--evento*/
+
