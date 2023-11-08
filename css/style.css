@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }
-
+/*-- contiene box modeling, fuente--*/
 
 h1 {
     font-family: cursive;
@@ -52,7 +52,7 @@ h5 {
     font-family: cursive;
     text-align: right;
 }
-
+/*-- coentiene box modeling--*/
 h6 {
     font-family: cursive;
     box-shadow: 25px -21px 55px -13px rgba(0, 0, 0, 0.68) inset;
@@ -65,7 +65,7 @@ body {
     text-align: center;
 
 }
-
+/*-- coentiene box modeling, clases--*/
 .menu {
     overflow: hidden;
     background-color: 333;
@@ -75,6 +75,7 @@ body {
 
 
 }
+                   /*-- coentiene selectores combinados--*/
 
 .menu a {
     float: left;
@@ -84,12 +85,13 @@ body {
     font-family: cursive;
 
 }
-
+/*-- contiene  selector por etiqueta--*/
 .menu:hover {
     background-color: black;
 
 }
 
+/*-- contiene media queries--*/
 @media screen and (max-widht: 700px) {
     .menu a {
         float: none;

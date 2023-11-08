@@ -1,4 +1,4 @@
-/*alerta! 
+/* contiene alerta! 
 variables --  CONDICIONALES ---metodos */
 let edad = parseInt(prompt("Por favor, introduce tu edad:"));
 
@@ -10,7 +10,7 @@ if (edad < 18) {
     alert("¡Bienvenido! Ahora puedes navegar en el sitio.")
 }
 
-/* funciones-- evento--*/
+/* contiene funciones-- evento--*/
 function mostrarFrase() {
     var elemento = document.getElementById("Cian Lú")
     elemento.innerText = "Comprando hoy, desbloquea tu descuento";
