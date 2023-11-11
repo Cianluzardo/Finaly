@@ -20,7 +20,7 @@ function reiniciarTexto() {
     var elemento = document.getElementById("Cian Lú");
     elemento.innerText = "Cian Lú";
 }
-/*contiene constante --*/
+/*contiene constante al enviar mensaje form --*/
 
 const button = document.getElementById ("enviar")
 button.addEventListener ("click", () => {
