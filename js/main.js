@@ -22,7 +22,7 @@ function reiniciarTexto() {
 }
 /*contiene constante al enviar mensaje form --*/
 
-const button = document.getElementById ("enviar")
+const button = document.getElementById ("Enviar")
 button.addEventListener ("click", () => {
     Swal.fire({
         title: "Good job!",
