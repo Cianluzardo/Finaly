@@ -20,6 +20,13 @@ function reiniciarTexto() {
     var elemento = document.getElementById("Cian Lú");
     elemento.innerText = "Cian Lú";
 }
+/*contiene constante --*/
 
-
-
+const button = document.getElementById ("enviar")
+button.addEventListener ("click", () => {
+    Swal.fire({
+        title: "Good job!",
+        text: "You clicked the button!",
+        icon: "success"
+      });
+})
